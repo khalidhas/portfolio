@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalid Hassan Abdi | Professional Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <!-- Dynamic Navigation Header -->
+    <header>
+        <div class="logo">KHALID HASSAN</div>
+        <nav>
+            <button class="nav-toggle-btn" id="toggle-nav-sections">Minimize UI</button>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <!-- DOM Theme Switcher Switch -->
+            <button id="theme-btn" class="theme-toggle">🌓 Toggle Theme</button>
+        </nav>
+    </header>
+
+    <!-- Home Page Section -->
+    <section id="home" class="section hero-section">
+        <div class="hero-container">
+            <!-- Profile Picture Placeholder Grid Element -->
+            <div class="profile-pic-container">
+                <img src="https://unsplash.com" alt="Khalid Hassan Abdi Profile" class="profile-img">
+            </div>
+            <div class="hero-text">
+                <h1>Hi, I'm Khalid Hassan Abdi</h1>
+                <p class="subtitle">A+ Certified | CCNA Professional | Web Developer</p>
+                <p class="objective"><strong>Career Objective:</strong> To leverage my robust foundational expertise in IT hardware architecture, advanced Cisco networking infrastructure, and modern front-end engineering to architect, optimize, and secure seamless digital platforms for tech-forward enterprises.</p>
+                <a href="#projects" class="btn">Explore My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Page Section -->
+    <section id="about" class="section bg-alt">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <div class="about-box">
+                    <h3>Biography</h3>
+                    <p>I am an ambitious, multidimensional tech specialist residing in Nairobi, Kenya. Having completed rigorous academic configurations across desktop systems engineering, global networking frameworks, and programmatic software layers, I am positioned to troubleshoot physical components and compile complex applications fluidly.</p>
+                </div>
+                <div class="about-box">
+                    <h3>Education & Certifications</h3>
+                    <ul>
+                        <li>🎓 <strong>Web Development Graduate</strong> – Comprehensive Front-End Engineering.</li>
+                        <li>🚀 <strong>CCNA Graduate</strong> – Cisco Certified Network Associate configuration pipeline.</li>
+                        <li>🛠️ <strong>A+ Graduate</strong> – Comprehensive hardware, software diagnostic protocols, and systems infrastructure.</li>
+                    </ul>
+                </div>
+                <div class="about-box">
+                    <h3>Career Goals</h3>
+                    <p>My immediate milestone centers on deploying highly scalable web solutions while provisioning secure underlying network nodes. Long term, I aim to excel in Full-Stack Cloud Architecture and Network Security Engineering, optimizing corporate enterprise landscapes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Page Section -->
+    <section id="skills" class="section">
+        <div class="container text-center">
+            <h2>Technical Skill Architecture</h2>
+            <div class="skills-grid">
+                <div class="skill-card">📑 HTML5</div>
+                <div class="skill-card">🎨 CSS3 & Layouts</div>
+                <div class="skill-card">⚡ JavaScript (ES6+)</div>
+                <div class="skill-card">🌿 Git Control</div>
+                <div class="skill-card">🐙 GitHub Ecosystem</div>
+                <div class="skill-card">🛠️ A+ Systems Diagnostics</div>
+                <div class="skill-card">🌐 CCNA Network Routing</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Page Section -->
+    <section id="projects" class="section bg-alt">
+        <div class="container">
+            <h2>Completed Capstone Projects</h2>
+            <p class="section-desc">Dynamically generated from our technical JavaScript data framework layer.</p>
+            <!-- Target Grid for Dynamic DOM Injection -->
+            <div id="project-container" class="grid-layout"></div>
+        </div>
+    </section>
+
+    <!-- Contact Page Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>📍 <strong>Location:</strong> Nairobi, Kenya</p>
+                    <p>📞 <strong>Phone:</strong> <a href="tel:+254716785441">+254 716 785441</a></p>
+                    <p>✉️ <strong>Email:</strong> <a href="mailto:khalidhassanabdi5@gmail.com">khalidhassanabdi5@gmail.com</a></p>
+                    <div class="social-links">
+                        <a href="https://github.com" target="_blank" class="social-btn gh">GitHub Profile</a>
+                        <a href="https://linkedin.com" target="_blank" class="social-btn li">LinkedIn Connection</a>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you Khalid. Your message has been routed smoothly.');">
+                    <input type="text" placeholder="Your Full Name" required>
+                    <input type="email" placeholder="Your Email Address" required>
+                    <textarea placeholder="Outline your engineering project details here..." rows="5" required></textarea>
+                    <button type="submit" class="btn">Send Encrypted Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Status bar -->
+    <footer>
+        <p>&copy; 2026 Khalid Hassan Abdi. Portfolio Capstone Delivery Systems Engaged.</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
